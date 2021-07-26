@@ -1,0 +1,52 @@
+.apps-list {
+  list-style: none;
+  position: relative;
+  width: 85%;
+  border-bottom: 1px solid;
+  border-color: rgb(115, 165, 211);
+  padding: 10px;
+}
+
+.apps-list div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  text-align: start;
+}
+
+.eventSvg {
+  position: absolute;
+  right: 0;
+  color: #0275d8;
+}
+
+.apps-list .icon {
+  cursor: default;
+  color: rgb(107, 172, 10);
+}
+
+.apps-list button {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: white;
+  color: #0275d8;
+  border-color: #0275d8;
+  cursor: pointer;
+  height: 25px;
+}
+
+.apps-list h4 {
+  margin: 5px;
+}
+
+.apps-list svg {
+  cursor: pointer;
+}
+
+.apps-list h5 {
+  margin: 5px;
+}
+
+span {
+  font-size: 15px;
+}

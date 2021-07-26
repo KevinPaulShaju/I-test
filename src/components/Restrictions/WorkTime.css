@@ -1,0 +1,38 @@
+.workTime {
+  position: relative;
+  width: 85%;
+  background-color: white;
+  color: black;
+  padding: 25px;
+  margin: 25px auto;
+}
+
+.workTime input {
+  width: 50%;
+  border: 3px solid #00b4cc;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.workTime h3 {
+  margin-top: 0;
+  color: #0275d8;
+}
+
+.workTime ul {
+  overflow-y: scroll;
+  height: 200px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.workTime ul::-webkit-scrollbar {
+  display: none;
+}
+
+.activeList {
+  background-color: rgb(241, 255, 255);
+}
